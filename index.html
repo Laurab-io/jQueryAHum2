@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link href="css/main.css" rel="stylesheet" type="text/css" >
+     <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro' rel="stylesheet" type="text/css">
+    
+    <title>jQuery Against Humanity.</title>
+</head>
+
+<body>
+    <div class= "bodybackground">
+    <div class="container">
+        <h1>jQuery Against Humanity</h1>
+        <h2>jQuery for Horrible People</h2>
+        <form id="my-form" role="form">
+<!--
+            <input type="my-input" class="form-control" type="text" placeholder=" Type a letter to find what's horrible">
+            <br>
+            <button type="submit" id="btn-click" class="btn btn-danger btn-md">Submit your Crazy</button>
+-->
+        </form>
+        
+        
+    <!--START FORM  ------------------------------------------------------------------------------------------>
+    <div id="questions">
+      
+        <hr>
+        
+          <h3>Input your grammar!</h3>
+        <br>
+        <form role="form">
+
+
+<div class="form-group">
+                <label for="person"> Offensive Person</label>
+                <input id="person" class="form-control person" type="text" placeholder="Offensive Person">
+            </div>
+
+
+<div class="form-group">
+                <label for="adjective"> Offensive Adjective</label>
+                <input id="adjective" class="form-control adjective" type="text" placeholder="Enter an offensive adjective">
+            </div>
+
+<div class="form-group">
+                <label for="noun">Offensive Noun</label>
+                <input id="noun" class="form-control noun" type="text" placeholder="Enter an offensive Plural Noun">
+            </div>
+                        
+<div class="form-group">
+                <label for="noun2">2nd Offensive Plural noun</label>
+                <input id="noun2" class="form-control plural-noun" type="text" placeholder="Enter a second offensive noun">
+            </div>
+           
+            
+<div class="form-group">
+                <label for="verb">An offensive verb ending in "s"</label>
+                <input id="verb" class="form-control verb" type="text" placeholder="Enter an Offensive verb ending in the letter 's'">        
+            </div>
+        </form>
+
+        <button id="btn-click" type="submit" class="btn btn-danger btn-lg">Generate!</button>
+        <hr>
+    </div>
+    <!--This div will go at the bottom of your form  -->
+    <!-- END OF FORM --------------------------------------------------------------------------------------->
+        
+         <!--START STORY------------------------------------------------------------------------------------>
+<!--       <script>$("#story").hide();</script>-->
+        <div id="storyhide">
+            <div id="storyhide1">
+    
+                
+ <div class="story">    
+     <h2>Finally! A service that delivers <span class="noun2"></span> right to your door! Brought to you by <span class="person"></span>.</h2>
+        </div>
+        
+<div class="story">     
+<h2>Step 1: <span class="noun2"></span><br> Step 2: <span class="verb"></span>
+<br> Step 3: Profit. </h2> 
+</div> 
+        
+<div class="story">
+    <h2> I've got <span class="noun"></span> by day, <span class="noun2"></span> by night. </h2>
+        </div>
+                
+<div class="story">
+ <h2>A successful job interview begins with a firm handshake and ends with <span class="noun"></span>.</h2>       
+        </div> 
+        
+        
+        <!------END OF STORY------------------------------------------->
+<br>
+
+        <div>     
+<button id= "play-btn"
+type="submit" class="btn btn-danger btn-lg">Play Again?</button>
+        </div>
+                
+                
+</div> <!--StoryHide1 div---->
+    </div> <!--StoryHide div---->    
+        
+        
+</div> <!--BodyBackground div  --->
+    
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script> 
+<!--
+    <script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+-->
+    <script src="js/main.js"></script>
+    </div> <!--Container Div class -->
+</body>
+
+</html>
